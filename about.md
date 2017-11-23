@@ -4,7 +4,7 @@ title: About
 sidebar_link: true
 ---
 
-![](/assets/images/Question-mark-question-clipart.png)
+![](/assets/images/Question-mark-question-clipart.png){: width="320px"}
 
 <p class="message">
   Hey there! This page is included as an example. Feel free to customize it
