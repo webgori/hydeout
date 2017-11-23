@@ -15,6 +15,3 @@ categories:
 python HexoPostImageToJekyllPostImageConverter.py "hexo md file path" "jekyll image path"
 python HexoPostImageToJekyllPostImageConverter.py "input.md" "/assets/"
 ```
-
-결과:
-```{% asset_img 20140816_093337-1024x576.jpg %} → ![](/assets/20140816_093337-1024x576.jpg)```
