@@ -17,6 +17,4 @@ python HexoPostImageToJekyllPostImageConverter.py "input.md" "/assets/"
 ```
 
 결과:
-```
-{% asset_img 20140816_093337-1024x576.jpg %} → ![](/assets/20140816_093337-1024x576.jpg)
-```
+```{% asset_img 20140816_093337-1024x576.jpg %} → ![](/assets/20140816_093337-1024x576.jpg)```
