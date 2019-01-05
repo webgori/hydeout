@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: test
 tags: null
 categories:
