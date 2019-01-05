@@ -4,7 +4,7 @@ title: test
 tags: null
 categories:
   - Spring
-date: '%Y-%m-%d'
+date: 2019-01-06T00:00:00.000Z
 ---
 ## A New Post
 
