@@ -4,6 +4,8 @@ title: test
 tags: null
 categories:
   - Spring
+date:
+  '[object Object]': null
 ---
 ## A New Post
 
