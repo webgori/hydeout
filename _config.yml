@@ -41,4 +41,3 @@ disqus:
  shortname: webgori
  
 google_analytics: UA-109147388-1
-date: {{ page.date | date: "%Y-%m-%d" }}
