@@ -1,6 +1,6 @@
 ---
 published: true
-date: {}
+date: 2019-01-06T01:07:00.000Z
 categories:
   - 일상
 ---
