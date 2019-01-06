@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: transmission cli로 토렌트 추가하기
 categories:
   - WEB
