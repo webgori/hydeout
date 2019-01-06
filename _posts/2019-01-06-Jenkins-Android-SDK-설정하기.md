@@ -1,6 +1,9 @@
 ---
-published: false
+published: true
 title: Jenkins Android SDK 설정하기
+date: 2019-01-06T15:28:00.000Z
+categories:
+  - WEB
 ---
 https://developer.android.com/studio/#downloads
 
