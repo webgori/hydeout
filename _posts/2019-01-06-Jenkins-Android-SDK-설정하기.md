@@ -5,7 +5,7 @@ date: 2019-01-06T15:28:00.000Z
 categories:
   - WEB
 ---
-https://developer.android.com/studio/#downloads
+[https://developer.android.com/studio/#downloads](https://developer.android.com/studio/#downloads)
 
 명령줄 도구만 해당 섹션으로 이동
 
