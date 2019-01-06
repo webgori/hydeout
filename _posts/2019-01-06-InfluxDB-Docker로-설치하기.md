@@ -1,7 +1,7 @@
 ---
-published: false
+published: true
 title: InfluxDB Docker로 설치하기
-date: 2019-01-06T13:18:00.000Z
+date: {}
 categories:
   - WEB
 ---
