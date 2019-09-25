@@ -46,7 +46,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 # disable fastestmirror
 vi /etc/yum/pluginconf.d/fastestmirror.conf
  
-enabled=0 -> enabled=1
+enabled=1 -> enabled=0
  
 :wq
 ```
