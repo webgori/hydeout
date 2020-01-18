@@ -1,6 +1,6 @@
 ---
 published: true
-title: [Linux] bashrc PS1 이쁘게 꾸미기
+title: Linux bashrc PS1 이쁘게 꾸미기
 categories:
   - Linux
 date: 2019-09-23T18:05:00.000Z
