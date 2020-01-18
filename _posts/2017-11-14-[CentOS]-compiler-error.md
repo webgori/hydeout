@@ -1,8 +1,8 @@
 ---
-title: CentOS compiler error
+title: [CentOS] compiler error
 date: 2017-11-14 10:32:34
 categories:
-  - CentOS
+  - Linux
 tags:
 ---
 gcc가 없을 경우

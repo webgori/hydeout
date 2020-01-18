@@ -1,8 +1,8 @@
 ---
 published: true
-title: CentOS yum repository Kakao로 변경
+title: [CentOS 7] yum repository Kakao로 변경
 categories:
-  - CentOS
+  - Linux
 date: 2019-09-25T14:19:00.000Z
 ---
 ```bash
