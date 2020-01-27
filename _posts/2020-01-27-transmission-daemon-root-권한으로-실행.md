@@ -2,7 +2,7 @@
 published: true
 title: transmission daemon root 권한으로 실행
 categories:
-  - Database
+  - Linux
 date: 2020-01-27T20:55:00.000Z
 ---
 
