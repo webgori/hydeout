@@ -24,7 +24,6 @@ root@nas:~# vi /etc/init.d/transmission-daemon
 
 NAME=transmission-daemon
 DAEMON=/usr/bin/$NAME
-#USER=debian-transmission
 USER=debian-transmission
 STOP_TIMEOUT=30
 
@@ -40,7 +39,6 @@ USER=debian-transmission 부분을 USER=root로 변경
 
 NAME=transmission-daemon
 DAEMON=/usr/bin/$NAME
-#USER=debian-transmission
 USER=root
 STOP_TIMEOUT=30
 
@@ -90,5 +88,5 @@ WantedBy=multi-user.target
 
 ## 5. transmission-daemon 실행
 ```console
-systemctl start transmission-daemon.service
+root@nas:~# systemctl start transmission-daemon.service
 ```
