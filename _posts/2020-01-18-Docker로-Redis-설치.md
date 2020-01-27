@@ -6,15 +6,15 @@ categories:
 date: 2020-01-18T15:05:00.000Z
 ---
 
-## 개요
+## 1. 개요
  * Ubuntu 18.04.3 LTS에서 테스트 하였습니다.
  
-## redis.conf 설정 파일 폴더 생성
+## 2. redis.conf 설정 파일 폴더 생성
 ```console
 root@nas:~# mkdir -p /etc/redis
 ```
 
-## redis.conf 설정 파일 다운로드
+## 3. redis.conf 설정 파일 다운로드
 ```console
 root@nas:~# wget http://download.redis.io/redis-stable/redis.conf -O /etc/redis/redis.conf
 --2020-01-27 18:56:29--  http://download.redis.io/redis-stable/redis.conf
@@ -29,13 +29,13 @@ Saving to: ‘/etc/redis/redis.conf’
 2020-01-27 18:56:30 (106 KB/s) - ‘/etc/redis/redis.conf’ saved [61797/61797]
 ```
 
-## 다운로드 된 설정 파일 확인
+## 4. 다운로드 된 설정 파일 확인
 ```console
 root@nas:~# ll /etc/redis/redis.conf
 -rw-r--r-- 1 root root 61797 11월 20 02:05 /etc/redis/redis.conf
 ```
 
-## container 생성
+## 5. container 생성
 ```console
 root@nas:~# docker run \
 > -d \
@@ -58,7 +58,7 @@ Status: Downloaded newer image for redis:latest
 35e19c4150f576a8173cb705260b37dab652aebd02a61edaf9f84fbd2b265622
 ```
 
-## 로그 확인
+## 6. 로그 확인
 ```console
 root@nas:~# docker logs redis
 1:C 27 Jan 2020 18:56:46.482 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
