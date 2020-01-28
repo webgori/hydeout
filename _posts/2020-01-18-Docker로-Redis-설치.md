@@ -38,13 +38,13 @@ root@nas:~# ll /etc/redis/redis.conf
 ## 5. container 생성
 ```console
 root@nas:~# docker run \
-> -d \
-> --restart=always \
-> --name=redis \
-> -p 6379:6379 \
-> -e TZ=Asia/Seoul \
-> -v /etc/redis:/data \
-> redis:latest redis-server /data/redis.conf
+-d \
+--restart=always \
+--name=redis \
+-p 6379:6379 \
+-e TZ=Asia/Seoul \
+-v /etc/redis:/data \
+redis:latest redis-server /data/redis.conf
 Unable to find image 'redis:latest' locally
 latest: Pulling from library/redis
 8ec398bc0356: Pull complete
