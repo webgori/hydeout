@@ -7,21 +7,9 @@ published: true
 
 ![](/assets/images/Question-mark-question-clipart.png){: width="200px"}
 
-1
-
-[video link](/assets/images/Question-mark-question-clipart.png)
-
-2
-
-![](/assets/images/Question-mark-question-clipart.png){:data-lightbox="image-1" width="200px"}
-
-3
-
 {% include lightbox.html src="images/Question-mark-question-clipart.png" data="group" title="Sample Title" %}
 
-[video link](https://youtu.be/iWowJBRMtpc?t=90s)
-
-{% include image.html src="images/Question-mark-question-clipart.png" title="Sample Title" %}
+{% include lightbox.html src="images/Question-mark-question-clipart.png" data="group" title="Sample Title" width="200px" %}
 
 ## 소개
 
