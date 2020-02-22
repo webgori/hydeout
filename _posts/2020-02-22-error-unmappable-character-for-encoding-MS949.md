@@ -17,13 +17,15 @@ date: 2020-02-22T23:58:00.000Z
 
 ### 2.1. 방법 1 gradle.properties 파일에 옵션 추가
  * 프로젝트 폴더\gradle.properties 파일이 있는지 확인하고 없으면 생성 합니다.
+ 
+ ![](/assets/posts/[IntelliJ] error unmappable character for encoding MS949/projectTree.png)
+ 
  * gradle.properties 파일에 아래의 옵션을 추가합니다.
  
 ``` properties
 org.gradle.jvmargs=-Dfile.encoding=UTF-8
 ```
- 
-![](/assets/posts/[IntelliJ] error unmappable character for encoding MS949/projectTree.png)
+
 ![](/assets/posts/[IntelliJ] error unmappable character for encoding MS949/gradle.properties.png)
 
 ### 2.2. 방법 2 gradle 버전을 v6.1.1로 변경
@@ -33,7 +35,7 @@ org.gradle.jvmargs=-Dfile.encoding=UTF-8
 distributionUrl=https\://services.gradle.org/distributions/gradle-6.1.1-all.zip
 ```
 
-![](/assets/posts/[IntelliJ] error unmappable character for encoding MS949/projectTree2.png)
+![](/assets/posts/[IntelliJ] error unmappable character for encoding MS949/projectTree2.PNG)
 ![](/assets/posts/[IntelliJ] error unmappable character for encoding MS949/gradle-wrapper.properties.png)
 
 ## 3. 빌드
