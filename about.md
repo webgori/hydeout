@@ -9,7 +9,7 @@ published: true
 
 1
 
-[](/assets/images/Question-mark-question-clipart.png)
+(/assets/images/Question-mark-question-clipart.png)
 
 2
 
