@@ -7,7 +7,7 @@ published: true
 
 ![](/assets/images/Question-mark-question-clipart.png){: width="200px"}
 
-[video link](https://youtu.be/iWowJBRMtpc?t=90s){:.no-lightbox}
+[video link](https://youtu.be/iWowJBRMtpc?t=90s)
 
 ## 소개
 
