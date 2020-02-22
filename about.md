@@ -17,15 +17,11 @@ published: true
 
 3
 
-{% include lightbox.html src="/assets/images/Question-mark-question-clipart.png" data="group" title="Sample Title" %}
-
-{% include lightbox.html src=/assets/images/Question-mark-question-clipart.png data="group" title="Sample Title" %}
+{% include lightbox.html src="images/Question-mark-question-clipart.png" data="group" title="Sample Title" %}
 
 [video link](https://youtu.be/iWowJBRMtpc?t=90s)
 
-{% include image.html src="/assets/images/Question-mark-question-clipart.png" title="Sample Title" %}
-
-{% include image.html src=/assets/images/Question-mark-question-clipart.png title="Sample Title" %}
+{% include image.html src="images/Question-mark-question-clipart.png" title="Sample Title" %}
 
 ## 소개
 
