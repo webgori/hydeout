@@ -6,6 +6,7 @@ published: true
 ---
 
 ![](/assets/images/Question-mark-question-clipart.png){: width="200px"}
+{% lightbox images/Question-mark-question-clipart.png --data="appfoundry_image_set" %}
 
 ## 소개
 
