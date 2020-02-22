@@ -13,7 +13,7 @@ published: true
 
 2
 
-![](/assets/images/Question-mark-question-clipart.png)
+![](/assets/images/Question-mark-question-clipart.png){:.lightbox-image width="200px"}
 
 3
 
