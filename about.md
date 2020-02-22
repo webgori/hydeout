@@ -7,11 +7,11 @@ published: true
 
 ![](/assets/images/Question-mark-question-clipart.png){: width="200px"}
 
-{% \raw %}
+{% raw %}
 
 {% lightbox images/Question-mark-question-clipart.png --data="appfoundry_image_set" %}
 
-{% \endraw %}
+{% endraw %}
 
 ## 소개
 
