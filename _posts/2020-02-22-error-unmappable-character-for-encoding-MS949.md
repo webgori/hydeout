@@ -1,6 +1,6 @@
 ---
 published: true
-title: [IntelliJ] error unmappable character for encoding MS949
+title:［IntelliJ］error：unmappable character for encoding MS949
 categories:
   - IntelliJ
 date: 2020-02-22T23:58:00.000Z
