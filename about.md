@@ -7,10 +7,6 @@ published: true
 
 ![](/assets/images/Question-mark-question-clipart.png){: width="200px"}
 
-{% include lightbox.html src="images/Question-mark-question-clipart.png" data="group" title="Sample Title" %}
-
-{% include lightbox.html src="images/Question-mark-question-clipart.png" data="group" title="Sample Title" width="200px" %}
-
 ## 소개
 
 닉네임 **webgori**를 사용중이며, 6년차 웹 개발자.
