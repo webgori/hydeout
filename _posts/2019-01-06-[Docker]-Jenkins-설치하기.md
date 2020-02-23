@@ -1,6 +1,6 @@
 ---
 published: true
-title: Jenkins Docker 설치하기
+title: "[Docker] Jenkins 설치하기"
 date: 2019-01-06T15:17:00.000Z
 categories:
   - WEB
