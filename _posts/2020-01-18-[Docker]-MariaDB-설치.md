@@ -1,6 +1,6 @@
 ---
 published: true
-title: Docker로 MariaDB 설치
+title: "[Docker] MariaDB 설치"
 categories:
   - Database
 date: 2020-01-18T15:00:00.000Z

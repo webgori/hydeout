@@ -1,6 +1,6 @@
 ---
 published: true
-title: Database별 커넥션 개수 확인
+title: "[MS-SQL] Database별 커넥션 개수 확인"
 categories:
   - Database
   - MS-SQL

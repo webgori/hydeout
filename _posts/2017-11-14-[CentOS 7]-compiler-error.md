@@ -1,5 +1,5 @@
 ---
-title: CentOS compiler error
+title: "[CentOS 7] compiler error"
 date: 2017-11-14 10:32:34
 categories:
   - Linux

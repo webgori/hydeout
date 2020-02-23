@@ -1,6 +1,6 @@
 ---
 published: true
-title: Linux root 권한 획득시 비밀번호 입력 안하기
+title: "[Linux] root 권한 획득시 비밀번호 입력 안하기"
 categories:
   - Linux
 date: 2020-01-18T12:00:00.000Z

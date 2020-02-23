@@ -1,6 +1,6 @@
 ---
 published: true
-title: Ubuntu rclone 설치
+title: "[Ubuntu] rclone 설치"
 categories:
   - Linux
 date: 2020-01-18T12:05:00.000Z
