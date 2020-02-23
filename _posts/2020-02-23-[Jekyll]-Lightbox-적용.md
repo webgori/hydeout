@@ -45,16 +45,10 @@ tags:
 ## 5. lightbox.html 파일 추가
  1. \_includes\lightbox.html 파일을 아래 내용으로 추가합니다.
  
- ``` plaintext
+ ``` html
+ {% raw %}
  <a href="{{ site.github.url }}/assets/{{ include.src }}" data-lightbox="{{ include.data }}" data-title="{{ include.title }}"><img src="{{ site.github.url }}/assets/{{ include.src }}" alt="{{ include.title }}" width="{{ include.width }}"/></a>
- ```
- 
- ```plaintext
- <a href="{{ site.github.url }}/assets/{{ include.src }}" data-lightbox="{{ include.data }}" data-title="{{ include.title }}"><img src="{{ site.github.url }}/assets/{{ include.src }}" alt="{{ include.title }}" width="{{ include.width }}"/></a>
- ```
- 
- ```
- <a href="{{ site.github.url }}/assets/{{ include.src }}" data-lightbox="{{ include.data }}" data-title="{{ include.title }}"><img src="{{ site.github.url }}/assets/{{ include.src }}" alt="{{ include.title }}" width="{{ include.width }}"/></a>
+ {% endraw %}
  ```
 
 ## 6. 이미지 삽입 (사용법)
@@ -70,10 +64,12 @@ tags:
 
 ### 6.2. width 조절 이미지 삽입
  {% include lightbox.html src="images/lightbox-sample.jpg" data="group" width="200px" %}
-  
+ 
+ ``` liquid 
  {% raw %}
  {% include lightbox.html src="images/lightbox-sample.jpg" data="group" width="200px" %}
  {% endraw %}
+ ```
  
 [googling]: <https://blog.aldomann.com/using-lightbox/>
 [Github]: <https://github.com/lokesh/lightbox2/releases>
