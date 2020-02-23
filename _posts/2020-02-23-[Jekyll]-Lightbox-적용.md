@@ -46,23 +46,24 @@ tags:
  1. \_includes\lightbox.html 파일을 아래 내용으로 추가합니다.
  
  ``` html
- <a href=\"{{ site.github.url }}/assets/{{ include.src }}\" data-lightbox=\"{{ include.data }}\" data-title=\"{{ include.title }}\"><img src=\"{{ site.github.url }}/assets/{{ include.src }}\" alt=\"{{ include.title }}\" width=\"{{ include.width }}\"/></a>
+ <a href=""{{ site.github.url }}/assets/{{ include.src }}"" data-lightbox=""{{ include.data }}"" data-title=""{{ include.title }}""><img src=""{{ site.github.url }}/assets/{{ include.src }}"" alt=""{{ include.title }}"" width=""{{ include.width }}""/></a>
  ```
 
 ## 6. 이미지 삽입 (사용법)
  
- ### 6.1. 일반 이미지 삽입
-  {% include lightbox.html src="images/lightbox-sample.jpg" data="group" %}
+### 6.1. 일반 이미지 삽입
+ {% include lightbox.html src="images/lightbox-sample.jpg" data="group" %}
   
-  ``` liquid
-  {% include lightbox.html src="images/lightbox-sample.jpg" data="group" %}
-  ```
- ### 6.2. width 조절 이미지 삽입
-  {% include lightbox.html src="images/lightbox-sample.jpg" data="group" width="200px" %}
+ ``` liquid
+ {% include lightbox.html src="images/lightbox-sample.jpg" data="group" %}
+ ```
+
+### 6.2. width 조절 이미지 삽입
+ {% include lightbox.html src="images/lightbox-sample.jpg" data="group" width="200px" %}
   
-  ``` liquid
-  {% include lightbox.html src="images/lightbox-sample.jpg" data="group" width="200px" %}
-  ```
+ ``` liquid
+ {% include lightbox.html src="images/lightbox-sample.jpg" data="group" width="200px" %}
+ ```
  
 [googling]: <https://blog.aldomann.com/using-lightbox/>
 [Github]: <https://github.com/lokesh/lightbox2/releases>
