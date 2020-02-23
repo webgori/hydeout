@@ -1,6 +1,6 @@
 ---
 published: true
-title: Docker로 Redis 설치
+title: "[Docker] Redis 설치"
 categories:
   - Database
 date: 2020-01-18T15:05:00.000Z
