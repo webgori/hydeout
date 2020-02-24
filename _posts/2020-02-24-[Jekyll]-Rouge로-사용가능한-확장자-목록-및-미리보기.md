@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "[Jekyll] Rouge로 사용가능한 프로그래밍 언어 목록 및 미리보기"
 categories:
   - WEB
@@ -44,7 +44,6 @@ tags:
      return ST_CONTINUE;
  }
  ```
- 
  
  11. ceylon: Say more, more clearly.
  12. cfscript: CFScript, the CFML scripting language [aliases: cfc]
