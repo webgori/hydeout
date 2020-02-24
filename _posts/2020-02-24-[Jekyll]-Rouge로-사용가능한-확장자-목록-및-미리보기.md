@@ -14,7 +14,6 @@ tags:
  
 ## 2. 2020년 02월 현재 지원하는 언어들 (미리보기는 Rouge monokai.sublime Theme)
  1. abap: SAP - Advanced Business Application Programming
- 
  ``` abap
  lo_obj ?= lo_obj->do_nothing( 'Char' && ` String` ).
  
@@ -23,7 +22,6 @@ tags:
    CHECK <mara>-mtart EQ '0001'.
  ENDLOOP.
  ```
- 
  2. actionscript: ActionScript [aliases: as,as3]
  3. apache: configuration files for Apache web server
  4. apiblueprint: Markdown based API description language. [aliases: apiblueprint,apib]
@@ -44,7 +42,6 @@ tags:
      return ST_CONTINUE;
  }
  ```
- 
  11. ceylon: Say more, more clearly.
  12. cfscript: CFScript, the CFML scripting language [aliases: cfc]
  13. clojure: The Clojure programming language (clojure.org) [aliases: clj,cljs]
@@ -53,7 +50,6 @@ tags:
  16. common_lisp: The Common Lisp variant of Lisp (common-lisp.net) [aliases: cl,common-lisp,elisp,emacs-lisp]
  17. conf: A generic lexer for configuration files [aliases: config,configuration]
  18. console: A generic lexer for shell sessions. Accepts ?lang and ?output lexer options, a ?prompt option, and ?comments to enable # comments. [aliases: terminal,shell_session,shell-session]
- 
  ``` console
  # prints "hello, world" to the screen
  ~# echo Hello, World
