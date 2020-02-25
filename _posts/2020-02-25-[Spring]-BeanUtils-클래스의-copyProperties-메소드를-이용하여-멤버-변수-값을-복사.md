@@ -2,10 +2,11 @@
 published: true
 title: "[Spring] BeanUtils 클래스의 copyProperties 메소드를 이용하여 멤버 변수 값을 복사"
 categories:
-  - WEB
+  - Spring
 date: 2020-02-25T10:22:00.000Z
 tags:
   - Spring
+  - Spring Boot
 ---
 
 ## 1. 개요
@@ -13,6 +14,7 @@ tags:
  * BeanUtils 클래스의 copyProperties 메소드를 이용하여 멤버 변수 값을 복사하는 방법을 소개합니다.
  
 ## 2. copyProperties 메소드 설명
+
 ``` JAVA
  /**
   * Copy the property values of the given source bean into the target bean.
@@ -35,6 +37,7 @@ tags:
  * 두번째 인자인 target 클래스에는 Setter가 있어야 합니다.
 
 ## 2. 예제 코드
+
 ``` JAVA
 package kr.webgori.lolien.discord.bot.unit;
 
