@@ -1,9 +1,9 @@
 ---
-published: false
+published: true
 title: "[Spring] BeanUtils 클래스의 copyProperties 메소드를 이용하여 멤버 변수 값을 복사"
 categories:
   - WEB
-date: 2020-02-25T10:18:00.000Z
+date: 2020-02-25T10:22:00.000Z
 tags:
   - Spring
 ---
