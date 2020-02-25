@@ -15,7 +15,7 @@ tags:
  
 ## 2. copyProperties 메소드 설명
 
-``` JAVA
+``` java
  /**
   * Copy the property values of the given source bean into the target bean.
   * <p>Note: The source and target classes do not have to match or even be derived
@@ -38,7 +38,7 @@ tags:
 
 ## 2. 예제 코드
 
-``` JAVA
+``` java
 package kr.webgori.lolien.discord.bot.unit;
 
 import static org.hamcrest.CoreMatchers.is;
