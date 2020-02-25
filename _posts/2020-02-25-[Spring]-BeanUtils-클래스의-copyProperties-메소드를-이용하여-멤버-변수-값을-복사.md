@@ -107,5 +107,5 @@ public class BeanUtilsUnitTest {
  
 ## 3. 테스트 결과
 
-{% include lightbox.html src="[Spring] BeanUtils 클래스의 copyProperties 메소드를 이용하여 멤버 변수 값을 복사/testResult.png" data="group" %}
+{% include lightbox.html src="posts/[Spring] BeanUtils 클래스의 copyProperties 메소드를 이용하여 멤버 변수 값을 복사/testResult.png" data="group" %}
 
