@@ -8,7 +8,7 @@ tags:
   - Samsung Galaxy S20
 ---
 
-[Samsung Galaxy S20 클라우드 블루][[Samsung Galaxy S20을 개봉]]를 개봉하고 사전구매 사은품 신청을 진행하였습니다.
+[Samsung Galaxy S20 클라우드 블루][Samsung Galaxy S20을 개봉]를 개봉하고 사전구매 사은품 신청을 진행하였습니다.
 
 {% include lightbox.html src="posts/Samsung Galaxy S20 사전구매 사은품 신청/ReservationNumber.jpg" data="group" %}
 
