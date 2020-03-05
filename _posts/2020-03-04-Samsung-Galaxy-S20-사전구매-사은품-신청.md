@@ -46,7 +46,7 @@ Samsung Galaxy S20을 구매하고 몇일이 지나면 구매처로부터 예약
 
 확인 버튼을 터치하면 사은품을 선택 및 배송지 정보 입력하는 페이지로 이동합니다.
 
-{% include lightbox.html src="posts/Samsung Galaxy S20 사전구매 사은품 신청/Screenshot_20200305-102501_Chrome.jpg" data="group" %}
+{% include lightbox.html src="posts/Samsung Galaxy S20 사전구매 사은품 신청/BonusGoods.jpg" data="group" %}
 
 사은품은「갤럭시 홈 미니」와「네모닉 미니」중 선택할 수 있습니다.
 
