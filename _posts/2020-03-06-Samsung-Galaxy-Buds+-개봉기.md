@@ -1,9 +1,9 @@
 ---
-published: false
+published: true
 title: "Samsung Galaxy Buds+ 개봉기"
 categories:
   - 일상
-date: 2020-03-06T22:10:00.000Z
+date: 2020-03-06T08:15:00.000Z
 tags:
   - Galaxy Buds+
   - 이어폰
@@ -36,6 +36,8 @@ Samsung Galaxy Buds+ 박스입니다. 생각보다 작네요.
 하늘색의 「Samsung Galaxy Buds+」가 「충전 케이스」 안에 있습니다.
 
 「USB 타입-C 케이블」과 「윙팁 작은 / 큰 사이즈」, 「이어팁 작은 / 큰 사이즈」가 보입니다.
+
+「윙팁 중간 사이즈」, 「이어팁 중간 사이즈」는 기본으로 장착되어 있습니다.
 
 {% include lightbox.html src="posts/Samsung Galaxy Buds+ 개봉기/20200304_233534.jpg" data="group" %}
 
