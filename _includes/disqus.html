@@ -1,12 +1,4 @@
 {% if site.disqus.shortname %}
-  <div id="disqus_thread">
-    <script>
-      loadDisqusComments();
-	</script>
-    <!--<button class="disqus-load" onClick="loadDisqusComments()">
-      Load Comments
-    </button>
-  </div>-->
   <script>
 
   /**
@@ -31,6 +23,15 @@
     Please enable JavaScript to view the
     <a href="https://disqus.com/?ref_noscript">comments powered by Disqus</a>.
   </noscript>
+  
+  <div id="disqus_thread">
+    <script>
+      loadDisqusComments();
+	</script>
+    <!--<button class="disqus-load" onClick="loadDisqusComments()">
+      Load Comments
+    </button>
+  </div>-->
 
 {% elsif jekyll.environment != "production" %}
   <p>
