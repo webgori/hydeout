@@ -2,7 +2,7 @@
 published: true
 title: "[Spring Boot] 웹사이트 API 서버 만들어 보기 - 개요"
 categories:
-  - 일상
+  - Spring
 date: 2020-03-13T21:47:00.000Z
 tags:
   - Spring Boot
