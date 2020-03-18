@@ -19,3 +19,19 @@ tags:
 혹시라도 포스팅을 보고 궁금한 점이 있거나, 잘못된 부분이 있으면 Disqus 댓글로 문의 바란다.
 
 아는 범위에서 답변해 주고, 모르면 찾아봐서 알려주고… (찾아도 안 나오면 모르겠…)
+
+## 통합 개발 환경(Integrated Development Environment, IDE)
+
+IntelliJ IDEA Community Edition 2019.2.4 버전을 사용한다.
+
+2019.3 버전도 release 되었는데, QueryDSL 버그가 있어서 안정적인 2019.2.4 버전을 사용한다.
+
+IntelliJ는 최고의 IDE면서 Community Edition은 회사에서도 [무료][IntelliJ 라이선스 나무위키]로 사용 가능하다.
+
+## JDK(Java Development Kit, JDK)
+
+JDK는 라이선스 이슈가 많은데, 오픈소스 라이선스인 AdoptOpenJDK의 [OpenJDK 11 HotSpot]을 사용한다.
+
+[IntelliJ 라이선스 나무위키]: <https://namu.wiki/w/IntelliJ%20IDEA#s-2>
+
+[OpenJDK 11 HotSpot]: <https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot>
