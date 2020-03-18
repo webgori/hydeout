@@ -32,6 +32,8 @@ IntelliJ는 최고의 IDE면서 Community Edition은 회사에서도 [무료][In
 
 JDK는 라이선스 이슈가 있는데, 오픈소스 라이선스인 AdoptOpenJDK의 [OpenJDK 11 HotSpot]을 사용한다.
 
+기존에 JDK 8을 사용했다면, JDK 11을 사용하는 데 큰 문제는 없을 것이다.
+
 ## 데이터베이스 서버
 
 데이터베이스 서버 종류가 많은데 우리 회사에서는 Microsoft SQL Server를 사용하고 있다.
