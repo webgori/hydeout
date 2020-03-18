@@ -12,7 +12,7 @@ tags:
 
 {% include lightbox.html src="posts/[Spring Boot] 웹사이트 API 서버 만들어 보기 - IntelliJ IDEA 설치/DownloadIntelliJ.png" data="group" %}
 
-[이곳][IntelliJ 다운로드]에서 IntelliJ IDEA Community Edition 2019.2.4를 다운로드 한다.
+[이곳][IntelliJ 다운로드]에 접속 후 스크롤을 조금 내려서 IntelliJ IDEA Community Edition 2019.2.4를 다운로드 한다.
 
 {% include lightbox.html src="posts/[Spring Boot] 웹사이트 API 서버 만들어 보기 - IntelliJ IDEA 설치/Image001.png" data="group" %}
 
