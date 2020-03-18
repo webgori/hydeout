@@ -28,9 +28,17 @@ IntelliJ IDEA Community Edition 2019.2.4 버전을 사용한다.
 
 IntelliJ는 최고의 IDE면서 Community Edition은 회사에서도 [무료][IntelliJ 라이선스 나무위키]로 사용 가능하다.
 
-## JDK(Java Development Kit, JDK)
+## 자바 개발 키트(Java Development Kit, JDK)
 
-JDK는 라이선스 이슈가 많은데, 오픈소스 라이선스인 AdoptOpenJDK의 [OpenJDK 11 HotSpot]을 사용한다.
+JDK는 라이선스 이슈가 있는데, 오픈소스 라이선스인 AdoptOpenJDK의 [OpenJDK 11 HotSpot]을 사용한다.
+
+## 데이터베이스 서버
+
+데이터베이스 서버 종류가 많은데 우리 회사에서는 Microsoft SQL Server를 사용하고 있다.
+
+이 프로젝트는 회사 팀원들을 위한 것이므로, Microsoft SQL Server를 사용해야 한다.
+
+데이터베이스 관련 설정할 때 MySQL과 MariaDB를 사용하는 방법도 같이 다뤄볼 예정이다.
 
 [IntelliJ 라이선스 나무위키]: <https://namu.wiki/w/IntelliJ%20IDEA#s-2>
 
