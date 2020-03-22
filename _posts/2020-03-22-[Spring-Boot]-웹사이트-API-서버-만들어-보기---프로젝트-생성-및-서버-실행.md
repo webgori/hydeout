@@ -52,7 +52,7 @@ Import Project를 클릭한다.
 
 {% include lightbox.html src="posts/[Spring Boot] 웹사이트 API 서버 만들어 보기 - 프로젝트 생성 및 서버 실행/20200321172607.png" data="group" %}
 
-프로젝트를 불러오고, Gradle을 자동으로 다운받는다.
+IntelliJ가 프로젝트를 불러오면서 빌드 도구인 Gradle을 자동으로 다운받는다.
 
 {% include lightbox.html src="posts/[Spring Boot] 웹사이트 API 서버 만들어 보기 - 프로젝트 생성 및 서버 실행/20200321173130.png" data="group" %}
 
@@ -62,10 +62,42 @@ Gradle 다운로드가 끝나면 Tip 창 왼쪽 하단의 "Show tips on startup"
 
 왼쪽에 프로젝트의 파일들이 보일 것이다.
 
-위의 사진처럼 Application으로 끝나는 클래스 파일을 찾아서 마우스 오른쪽 버튼을 누른 후 "Run Application…main()"을 클릭해서 Application을 실행해보자.
+위의 사진처럼 Application으로 끝나는 클래스 파일을 찾아서 마우스 오른쪽 버튼을 누른 후 "Run Application…main()"을 클릭해서 서버를 실행해보자.
 
 {% include lightbox.html src="posts/[Spring Boot] 웹사이트 API 서버 만들어 보기 - 프로젝트 생성 및 서버 실행/20200322174721.png" data="group" %}
 
 콘솔에 Started Application in…이라고 로그가 나오면 로컬 서버가 실행된 것이다.
 
+## 문제 해결
+
+```
+Unnecessarily replacing a task that does not exist is not supported.  Use create() or register() directly instead.  You attempted to replace a task named 'DemoWebsiteApiApplication.main()', but there is no existing task with that name.
+```
+
+위와 같은 에러 메시지가 나오면서 서버가 실행되지 않는다면 [이글][Spring-Unnecessarily-replacing-a-task-that-does-not-exist-is-not-supported]을 확인해보자.
+
+```
+Connected to the target VM, address: '127.0.0.1:14418', transport: 'socket'
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2020-03-22 17:40:47.815  INFO 1476 --- [           main] k.w.d.w.api.DemoWebsiteApiApplication    : Starting DemoWebsiteApiApplication on DESKTOP-NA5N5BP with PID 1476 (C:\Project\demo-website-api\out\production\classes started by webgori in C:\Project\demo-website-api)
+2020-03-22 17:40:47.822  INFO 1476 --- [           main] k.w.d.w.api.DemoWebsiteApiApplication    : No active profile set, falling back to default profiles: default
+2020-03-22 17:40:49.221  INFO 1476 --- [           main] k.w.d.w.api.DemoWebsiteApiApplication    : Started DemoWebsiteApiApplication in 2.329 seconds (JVM running for 3.782)
+Disconnected from the target VM, address: '127.0.0.1:14418', transport: 'socket'
+
+Process finished with exit code 0
+```
+
+위와 같은 에러 메시지가 나오면서 서버가 실행되지 않는다면 [이글][Spring-Disconnected-from-the-target-VM]을 확인해보자.
+
 [Spring Initializr]: <https://start.spring.io/>
+[Spring-Unnecessarily-replacing-a-task-that-does-not-exist-is-not-supported]: <https://webgori.github.io/spring/2020/03/21/Spring-Unnecessarily-replacing-a-task-that-does-not-exist-is-not-supported.html>
+[Spring-Disconnected-from-the-target-VM]: <https://webgori.github.io/spring/2020/03/22/Spring-Disconnected-from-the-target-VM.html>
