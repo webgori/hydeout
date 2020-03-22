@@ -31,6 +31,6 @@ File - Settings(Ctrl + Alt + S)을 눌러 설정 창을 연다.
 
 OK 버튼을 누른다.
 
-{% include lightbox.html src="posts/[Spring] Unnecessarily replacing a task that does not exist is not supported/20200321212919.png" data="group" %}
+{% include lightbox.html src="posts/[Spring] Unnecessarily replacing a task that does not exist is not supported/20200322174721.png" data="group" %}
 
 Spring Application을 실행하면 에러가 안 난다.
