@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            뚠뚠라이프
 tagline:          'Jekyll Blog'
-description:      '뚠뚜니의 일상을 적어가는 일기장'
+description:      ''
 url:              https://webgori.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
