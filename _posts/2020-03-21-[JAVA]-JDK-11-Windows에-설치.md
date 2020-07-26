@@ -2,7 +2,7 @@
 published: true
 title: "[JAVA] JDK 11 Windows에 설치"
 categories:
-  - Spring
+  - JAVA
 date: 2020-03-21T20:00:00.000Z
 tags:
   - JAVA
