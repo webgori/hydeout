@@ -1,6 +1,6 @@
 ---
 published: true
-title: "[Docker] Jenkins JDK8 설치"
+title: "[Docker] Jenkins JDK 8 설치"
 categories:
   - Jenkins
 date: 2019-09-23T17:36:00.000Z
