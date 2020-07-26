@@ -1,11 +1,11 @@
 ---
 published: true
-title: "[Spring Boot] 웹사이트 API 서버 만들어 보기 - JDK 11 설치"
+title: "[JAVA] JDK 11 Windows에 설치"
 categories:
   - Spring
 date: 2020-03-21T20:00:00.000Z
 tags:
-  - Spring Boot
+  - JAVA
 ---
 
 프로젝트를 개발하려면 자바 개발 키트(Java Development Kit, JDK)가 필요하므로 JDK 11을 설치해보자.
