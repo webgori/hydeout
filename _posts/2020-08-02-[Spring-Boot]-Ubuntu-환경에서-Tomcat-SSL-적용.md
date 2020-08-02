@@ -207,9 +207,3 @@ root@nas:~# cp /etc/letsencrypt/live/lol.kr/chain.pem /usr/local/tomcat/conf/
 root@nas:~# cp /etc/letsencrypt/live/lol.kr/privkey.pem /usr/local/tomcat/conf/
 root@nas:~# vi /usr/local/tomcat/conf/server.xml
 ```
-
- 1. SSL 적용 전 tomcat 중지
- 2. certbot 패키지 설치
- 3. certbot certonly --standalone -d 자신의 도메인 명령어로 인증서 발급
- 4. "/etc/letsencrypt/live/자신의 도메인/"에 생성된 인증서 파일을 tomcat/conf 경로에 복사
- 5. tomcat/conf/server.xml 파일 수정
