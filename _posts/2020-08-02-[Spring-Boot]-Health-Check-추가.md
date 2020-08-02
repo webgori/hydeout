@@ -8,7 +8,7 @@ tags:
   - Spring Boot
 ---
 
- * 서버의 세부 상태를 확인하려면 Health Check를 사용하면 된다.
+ * 서버의 상태를 확인하려면 Health Check를 사용하면 된다.
  * 설명은 Spring Boot 2.0.9.RELEASE 기준이다.
 
 ```gradle
