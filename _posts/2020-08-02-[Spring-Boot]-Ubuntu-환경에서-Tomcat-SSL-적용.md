@@ -401,4 +401,4 @@ root@nas:~# vi /usr/local/tomcat/conf/server.xml
 0 4 1 * * /usr/bin/certbot renew --pre-hook="/usr/local/tomcat/bin/catalina.sh stop" --renew-hook="/usr/local/tomcat/bin/catalina.sh start"
 ```
 
- * crontab에 매월 1일 인증서 갱신되도록 추가 (갱신 전 tomcat 중지, 갱신 후 tomcat 시작)
+ * crontab에 매월 1일 오전 4시에 인증서 갱신되도록 추가 (갱신 전 tomcat 중지, 갱신 후 tomcat 시작)
