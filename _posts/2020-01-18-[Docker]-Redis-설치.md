@@ -43,8 +43,8 @@ root@nas:~# docker run \
 --name=redis \
 -p 6379:6379 \
 -e TZ=Asia/Seoul \
--v /etc/redis:/data \
-redis:latest redis-server /data/redis.conf
+-v /etc/redis/redis.conf:/usr/local/etc/redis/redis.conf \
+redis:latest redis-server /usr/local/etc/redis/redis.conf
 Unable to find image 'redis:latest' locally
 latest: Pulling from library/redis
 8ec398bc0356: Pull complete
