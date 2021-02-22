@@ -3,7 +3,7 @@ published: true
 title: "[CentOS 7] node.js 설치하기"
 categories:
   - Linux
-date: 2020-01-17T15:40:00.000Z
+date: 2021-02-22T21:58:00.000Z
 ---
 
 ```console
